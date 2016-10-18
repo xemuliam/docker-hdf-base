@@ -15,7 +15,7 @@ Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonwo
 Dockerized single-host HDF.
 
 Deployment options out of the box:
-- Standalone NiFi node
+- Standalone HDF node
 
 Can work under Kitematic
 
