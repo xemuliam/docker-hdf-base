@@ -23,6 +23,7 @@ Can work under Kitematic
 # Exposed ports
 
 - 8080 - HDF web application port
+- 8081 - NiFi ListenHTTP processor port
 - 8443 - HDF web application secure port
 
 
@@ -36,6 +37,11 @@ Please bear in mind that HDF powered by Apache NiFi
 - [Development Quickstart](https://nifi.apache.org/quickstart.html)
 - [Developer's Guide](https://nifi.apache.org/developer-guide.html)
 - [System Administrator](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html)
+
+
+# ListenHTTP Processor
+
+The standard library has a built-in processor for an HTTP endpoint listener. That processor is named [ListenHTTP](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi.processors.standard.ListenHTTP/index.html). You should set the *Listening Port* of the instantiated processor to `8081` if you follow the instructions from above.
 
 
 # Usage
@@ -66,8 +72,8 @@ Kitematic will assign all ports and you'll be able to run HDF web-interface dire
 # How to use from Docker CLI
 
 1. Start Docker Quickstart Terminal
-2. Run command  `docker run -d -p 8080:8080 -p 8443:8443 xemuliam/hdf-base`
+2. Run command  `docker run -d -p 8080:8080 -p 8081:8081 -p 8443:8443 xemuliam/hdf-base`
 3. Check Docker machine IP  `docker-machine ls`
-4. Use IP from previous step in address bar of your favorite browser ` http://192.168.99.100:8080/nifi`
+4. Use IP from previous step in address bar of your favorite browser, e.g. ` http://192.168.99.100:8080/nifi`
 
 # Enjoy! :)
