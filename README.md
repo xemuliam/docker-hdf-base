@@ -1,4 +1,4 @@
-# HDF-base ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.0.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.0.svg)
+# HDF-base ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.0.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.0.1.svg)
 Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonworks DataFlow](http://hortonworks.com/products/data-center/hdf/), based on [Alpine](http://alpinelinux.org) and [OpenJDK](http://openjdk.java.net)
 
                         ##         .
@@ -62,7 +62,7 @@ Ensure the following pre-requisites are met (due to some blocker bugs in earlier
 # How to use from Kitematic
 
 1. Start Kitematic
-2. Enter `xemuliam` in serach box
+2. Enter `xemuliam` in search box
 3. Choose `hdf-base` image
 4. Click `Create` button
 
