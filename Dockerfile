@@ -1,4 +1,4 @@
-FROM       openjdk:alpine
+FROM       openjdk:8-alpine
 MAINTAINER Viacheslav Kalashnikov <xemuliam@gmail.com>
 ARG        DIST_MIRROR=http://public-repo-1.hortonworks.com
 ARG        VERSION=2.0.1.0
