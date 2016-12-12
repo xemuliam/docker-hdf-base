@@ -6,7 +6,7 @@ ENV        HDF_HOME=/opt/hdf
 RUN        apk update && apk add --upgrade curl && \
            mkdir -p ${HDF_HOME} && \
            curl ${DIST_MIRROR} | tar xvz -C ${HDF_HOME} && \
-           mv ${HDF_HOME}/nifi-${VERSION}-${REVISION}/* ${HDF_HOME} && \
+           mv ${HDF_HOME}/nifi-${VERSION}/* ${HDF_HOME} && \
            rm -rf *.tar.gz && \
            apk del curl && \
            rm -rf /var/cache/apk/*
