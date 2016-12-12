@@ -2,8 +2,12 @@
 
 - ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.1.0.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.1.0.svg)
 - ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.0.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.0.1.svg)
+- ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:1.2.0.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:1.2.0.1.svg)
 
-Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonworks DataFlow](http://hortonworks.com/products/data-center/hdf/), based on [Alpine](http://alpinelinux.org) and [OpenJDK](http://openjdk.java.net)
+Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonworks DataFlow](http://hortonworks.com/products/data-center/hdf/), based on [Alpine](http://alpinelinux.org) and [OpenJDK](http://openjdk.java.net)  
+
+ ![Docker Pulls](https://img.shields.io/docker/pulls/xemuliam/hdf-base.svg) ![Docker Stars](https://img.shields.io/docker/stars/xemuliam/hdf-base.svg)  
+
 
                         ##         .
                   ## ## ##        ==
@@ -11,7 +15,7 @@ Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonwo
            /"""""""""""""""""\___/ ===
       ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
            \______ o   HDF     __/
-             \    \   2.1.0 __/
+             \    \         __/
               \____\_______/
 
 # Overview
@@ -29,6 +33,18 @@ Can work under Kitematic
 - 8080 - HDF web application port
 - 8081 - NiFi ListenHTTP processor port
 - 8443 - HDF web application secure port
+
+
+# Volumes
+
+All below volumes can be mounted to docker host machine folders or shared folders to easy maintain data inside them. 
+
+NiFi-specific:
+- /opt/nifi/logs
+- /opt/nifi/flowfile_repository
+- /opt/nifi/database_repository
+- /opt/nifi/content_repository
+- /opt/nifi/provenance_repository
 
 
 # Official Documentation and Guides
