@@ -11,7 +11,7 @@ Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonwo
            /"""""""""""""""""\___/ ===
       ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
            \______ o   HDF     __/
-             \    \    2.0  __/
+             \    \   2.1.0 __/
               \____\_______/
 
 # Overview
