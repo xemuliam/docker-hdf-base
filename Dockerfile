@@ -1,11 +1,11 @@
 FROM       openjdk:8-alpine
 MAINTAINER Viacheslav Kalashnikov <xemuliam@gmail.com>
-ARG        DIST_MIRROR=http://public-repo-1.hortonworks.com/HDF/centos6/2.x/updates/2.1.0.0/tars/nifi/nifi-1.1.0.2.1.0.0-165-bin.tar.gz
-ARG        VERSION=1.1.0.2.1.0.0-165
+ARG        DIST=http://public-repo-1.hortonworks.com/HDF/2.1.1.0/nifi-1.1.0.2.1.1.0-2-bin.tar.gz
+ARG        VERSION=1.1.0.2.1.1.0-2
 ENV        HDF_HOME=/opt/hdf
 RUN        apk update && apk add --upgrade bash curl && \
            mkdir -p ${HDF_HOME} && \
-           curl ${DIST_MIRROR} | tar xvz -C ${HDF_HOME} && \
+            curl ${DIST} | tar xvz -C ${HDF_HOME} && \
            mv ${HDF_HOME}/nifi-${VERSION}/* ${HDF_HOME} && \
            rm -rf ${HDF_HOME}/nifi-${VERSION} && \
            rm -rf *.tar.gz && \
