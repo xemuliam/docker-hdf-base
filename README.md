@@ -6,7 +6,7 @@
 
 Basic and clean [Docker](https://www.docker.com/what-docker) image for [Hortonworks DataFlow](http://hortonworks.com/products/data-center/hdf/), based on [Alpine](http://alpinelinux.org) and [OpenJDK](http://openjdk.java.net)  
 
- ![Docker Pulls](https://img.shields.io/docker/pulls/xemuliam/hdf-base.svg) ![Docker Stars](https://img.shields.io/docker/stars/xemuliam/hdf-base.svg)  
+![Docker builds](https://img.shields.io/docker/automated/xemuliam/hdf-base.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/xemuliam/hdf-base.svg) ![Docker Stars](https://img.shields.io/docker/stars/xemuliam/hdf-base.svg)  
 
 
                         ##         .
