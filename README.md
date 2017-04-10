@@ -1,5 +1,7 @@
 # HDF-base
 
+- ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.1.2.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.1.0.svg)
+- ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.1.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.1.0.svg)
 - ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.1.0.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.1.0.svg)
 - ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:2.0.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:2.0.1.svg)
 - ![](https://images.microbadger.com/badges/version/xemuliam/hdf-base:1.2.0.1.svg) ![](https://images.microbadger.com/badges/image/xemuliam/hdf-base:1.2.0.1.svg)
