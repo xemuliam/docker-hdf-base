@@ -1,7 +1,7 @@
 FROM       openjdk:8-alpine
 MAINTAINER Viacheslav Kalashnikov <xemuliam@gmail.com>
 ARG        DIST=http://public-repo-1.hortonworks.com/HDF/2.1.1.0/nifi-1.1.0.2.1.1.0-2-bin.tar.gz
-ARG        VERSION=1.1.0.2.1.1.0-2
+ARG        VERSION=1.1.0.2.1.2.0-10
 ENV        HDF_HOME=/opt/hdf
 RUN        apk update && apk add --upgrade bash curl && \
            mkdir -p ${HDF_HOME} && \
